@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    table {
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid;
+        width: 150px;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <section>
+        <h1>
+            <font size="4" face="arial" color="black">Tabela 1</font>
+        </h1>
+        <table>
+            <tr style="text-align: left">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr style="text-align: center">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr style="text-align: right">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h1>
+            <font size="4" face="arial" color="black">Tabela 2</font>
+        </h1>
+        <table>
+            <tr style="text-align: left">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr style="text-align: center">
+                <td colspan="3">4</td>
+            </tr>
+            <tr style="text-align: left">
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h1>
+            <font size="4" face="arial" color="black">Tabela 3</font>
+        </h1>
+        <table>
+            <tr style="text-align: left">
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="3" style="text-align: center">3</td>
+            </tr>
+            <tr style="text-align: center">
+                <td colspan="2">4</td>
+            </tr>
+            <tr style="text-align: left">
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+</html>
